@@ -10,7 +10,8 @@
     "permissions": [
         "cookies",
         "contentSettings",
-        "storage"
+        "storage",
+        "<all_urls>"
     ],
     "icons": {
         "16": "16.png",
