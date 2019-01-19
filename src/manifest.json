@@ -1,0 +1,29 @@
+{
+
+    "manifest_version": 2,
+    "name": "Cookie Control",
+    "short_name": "Cookie Control",
+    "version": "0.1",
+    "author": "LonMcGregor",
+    "description": "Cookie Manager.",
+    "homepage_url": "https://github.com/lonmcgregor",
+    "permissions": [
+        "cookies",
+        "contentSettings",
+        "storage"
+    ],
+    "icons": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "16.png",
+            "24": "24.png",
+            "32": "32.png"
+        },
+        "default_popup": "main.html",
+        "default_title": "Manage Cookies"
+    }
+}
